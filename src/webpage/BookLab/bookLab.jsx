@@ -11,7 +11,7 @@ import nmcLabImg from '../../assets/images/bookLab/nmc.png'
 import onehealthLabImg from '../../assets/images/bookLab/onehealth.jpg'
 // import DatePicker from "react-datepicker";
 // import "react-datepicker/dist/react-datepicker.css";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 // import TimePicker from 'react-time-picker';
 import { Greeting } from '../Component/greeting'
 
@@ -315,7 +315,7 @@ export const BookLab = () => {
 
                                                 <div className="LabCarousel">
                                                     <div className="LabCarouselInner">
-                                                        <Slider {...settings}>
+                                                        {/* <Slider {...settings}>
                                                             <div className='carouselItem'>
                                                                 <div className='carouselItemInner'>
                                                                     <input type="radio" id='darulSehatId' value="darulSehat" name='labName' onChange={getLabInput} />
@@ -366,7 +366,7 @@ export const BookLab = () => {
                                                                 </div>
                                                             </div>
 
-                                                        </Slider>
+                                                        </Slider> */}
                                                     </div>
 
                                                 </div>

@@ -4,7 +4,7 @@ import Abocran from "../../assets/images/Pharmacy/Abocran.png"
 import Acefyl from "../../assets/images/Pharmacy/acefyl.png"
 import Acefyl2 from "../../assets/images/Pharmacy/aceful2.png"
 import Agp from '../../assets/images/Pharmacy/agp.png'
-import Slider from "react-slick";
+// import Slider from "react-slick";
 
 export const Brands = () => {
     const [settings, setSettings] = useState({
@@ -60,7 +60,7 @@ export const Brands = () => {
                         <div className="categoryCarousel">
                            
                             <div className="carousel">
-                                <Slider {...settings}>
+                                {/* <Slider {...settings}>
                                     <div className='carouselItem'>
                                         <a href='#' className="inner">
                                             <img src={Agp} alt="" />
@@ -106,7 +106,7 @@ export const Brands = () => {
                                         <img src={Agp} alt="" />
                                         </a>
                                     </div>
-                                </Slider>
+                                </Slider> */}
                             </div>
                            
 

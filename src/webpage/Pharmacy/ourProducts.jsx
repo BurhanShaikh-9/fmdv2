@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import Abocal from "../../assets/images/Pharmacy/abocal.png"
 import Abocran from "../../assets/images/Pharmacy/Abocran.png"
 import Acefyl from "../../assets/images/Pharmacy/acefyl.png"
@@ -77,7 +77,7 @@ export const OurProducts = () => {
                 </div>
                 <hr />
                 <div className="carousel">
-                  <Slider {...settings}>
+                  {/* <Slider {...settings}>
                     <div className='carouselItem'>
                       <a href='#' className="inner acidity">
                         <span>Acidity</span>
@@ -123,7 +123,7 @@ export const OurProducts = () => {
                         <span>Malaria</span>
                       </a>
                     </div>
-                  </Slider>
+                  </Slider> */}
                 </div>
                 <div className="viewButton">
                   <Link to={ROUTING.OUR_CATEGORIES}>View All</Link>

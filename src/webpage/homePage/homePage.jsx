@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import { ROUTING } from '../../utils/routes'
 // import CountUp from "react-countup";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import VisibilitySensor from "react-visibility-sensor";
 import docImg from '../../assets/images/homepage/backgroundDoctor.png'
 import bookDocImg from '../../assets/images/homepage/bookDoctor.png'
@@ -430,7 +430,7 @@ export const HomePage = () => {
                                     </div>
                                     <div className="carouselDiv">
                                         <div className="carouselInner">
-                                            <Slider {...settings}>
+                                            {/* <Slider {...settings}>
                                                 <div className='carouselItem'>
                                                     <div className='carouselItemInner'>
 
@@ -469,7 +469,7 @@ export const HomePage = () => {
                                                     </div>
 
                                                 </div>
-                                            </Slider>
+                                            </Slider> */}
                                         </div>
 
                                     </div>
@@ -498,7 +498,7 @@ export const HomePage = () => {
                                     </div>
                                     <div className="carouselDiv">
                                         <div className="carouselInner">
-                                            <Slider {...settings}>
+                                            {/* <Slider {...settings}>
                                                 <div className='carouselItem'>
                                                     <div className='carouselItemInner1'>
 
@@ -537,7 +537,7 @@ export const HomePage = () => {
                                                     </div>
 
                                                 </div>
-                                            </Slider>
+                                            </Slider> */}
                                         </div>
 
                                     </div>

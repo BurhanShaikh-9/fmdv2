@@ -11,7 +11,6 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
-    "react-slick": "^0.29.0",
     "react-social-login-buttons": "^3.6.1",
     "react-toastify": "^9.1.1",
     "react-visibility-sensor": "^5.1.1",
