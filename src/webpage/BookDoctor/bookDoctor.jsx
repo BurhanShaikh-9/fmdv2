@@ -20,7 +20,7 @@ import verified from '../../assets/images/BookDoctor/verified.png'
 import DatePicker from "react-datepicker";
 import { Greeting } from '../Component/greeting';
 import "react-datepicker/dist/react-datepicker.css";
-import TimePicker from 'react-time-picker';
+// import TimePicker from 'react-time-picker';
 export const BookDoctor = () => {
 
     const buttonRef1 = useRef(null);
@@ -154,7 +154,7 @@ export const BookDoctor = () => {
     const formSubmit = (e) => {
         e.preventDefault();
         appointmentSuccNext(e);
-        const BookDoctorVar = { ...doctorBooking, BookingDate, labTime }
+        const BookDoctorVar = { ...doctorBooking, BookingDate }
         console.log(BookDoctorVar);
     }
 
@@ -167,7 +167,7 @@ export const BookDoctor = () => {
 
 
     const BookingDate = formatDate(bookDate)
-    const [labTime, setLabTime] = useState('00:00');
+    // const [labTime, setLabTime] = useState('00:00');
     return (
         <>
             <main >
@@ -647,7 +647,7 @@ export const BookDoctor = () => {
                                                         inline
                                                     />
                                                     {/* <label htmlFor="selectTimeId" className='selectDateTimeLabel'>Pick your Time</label> */}
-                                                    <div className='TimePickerDiv'> <TimePicker onChange={setLabTime} value={labTime} /></div>
+                                                    {/* <div className='TimePickerDiv'> <TimePicker onChange={setLabTime} value={labTime} /></div> */}
                                                 </div>
                                             </div>
                                             {/* <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 " align="center">
@@ -675,7 +675,7 @@ export const BookDoctor = () => {
                                         </div>
                                         <div className="buttons">
                                             <button href="#" className='backButton' onClick={dateTimeBack}><i className="bi bi-arrow-left"></i></button>
-                                            <button href="#" className='nextButton' onClick={dateTimeNext} disabled={!BookingDate || !labTime}><i className="bi bi-arrow-right"></i></button>
+                                            <button href="#" className='nextButton' onClick={dateTimeNext} disabled={!BookingDate}><i className="bi bi-arrow-right"></i></button>
                                         </div>
                                     </div>
                                 </div>
@@ -699,7 +699,7 @@ export const BookDoctor = () => {
                                             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 " align="center">
                                                 <div className='selectDateTime '>
                                                     <label htmlFor="selectDateId" className='selectDateTimeLabel'> Date & Time</label>
-                                                    <p>{BookingDate} - {labTime}</p>
+                                                    <p>{BookingDate}</p>
                                                 </div>
                                             </div>
                                             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 " align="center">
@@ -775,7 +775,7 @@ export const BookDoctor = () => {
                                             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 " align="center">
                                                 <div className='selectDateTime '>
                                                     <label htmlFor="selectDateId" className='selectDateTimeLabel'> Date & Time</label>
-                                                    <p>{BookingDate} - {labTime}</p>
+                                                    <p>{BookingDate} </p>
                                                 </div>
                                             </div>
                                             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 " align="center">
