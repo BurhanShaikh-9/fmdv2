@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import { ROUTING } from '../../utils/routes'
-import CountUp from "react-countup";
+// import CountUp from "react-countup";
 import Slider from "react-slick";
 import VisibilitySensor from "react-visibility-sensor";
 import docImg from '../../assets/images/homepage/backgroundDoctor.png'
