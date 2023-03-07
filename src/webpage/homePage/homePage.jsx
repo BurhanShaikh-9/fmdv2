@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ROUTING } from '../../utils/routes'
 // import CountUp from "react-countup";
 // import Slider from "react-slick";
-import VisibilitySensor from "react-visibility-sensor";
+// import VisibilitySensor from "react-visibility-sensor";
 import docImg from '../../assets/images/homepage/backgroundDoctor.png'
 import bookDocImg from '../../assets/images/homepage/bookDoctor.png'
 import bookLabImg from '../../assets/images/homepage/bookLab.png'
@@ -297,7 +297,7 @@ export const HomePage = () => {
                                 </div>
                             </div>
                         </section>
-                        <VisibilitySensor
+                        {/* <VisibilitySensor
                             onChange={(visibility) => setIsVisible(visibility)}
                             active={!isVisible}
                         >
@@ -366,7 +366,7 @@ export const HomePage = () => {
                                     </div>
                                 </div>
                             </section>
-                        </VisibilitySensor>
+                        </VisibilitySensor> */}
                         <section>
                             <div className="container">
                                 <div className="aboutUs">
