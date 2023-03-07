@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import LoginImg from '../../assets/images/registration/login1.png'
 import googleImg from '../../assets/images/registration/google.png'
 import { Link } from 'react-router-dom'
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+// import { ToastContainer } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
 import AuthService from '../../services/auth.service'
 import { Loading } from '../Component/loading';
 import { ROUTING } from '../../utils/routes';
@@ -48,7 +48,7 @@ export const Login = () => {
             {!isLoading &&
                 <main >
                     <div className="loginForm">
-                        <ToastContainer
+                        {/* <ToastContainer
                             position="top-center"
                             autoClose={5000}
                             hideProgressBar={false}
@@ -59,7 +59,7 @@ export const Login = () => {
                             draggable
                             pauseOnHover
                             theme="light"
-                        />
+                        /> */}
                         <section className="loginBanner">
                             <div className="banner">
                                 <div className="bannerInner">

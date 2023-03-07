@@ -2,7 +2,7 @@
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 import { ROUTING } from '../utils/routes'
-import { toast } from 'react-toastify';
+// import { toast } from 'react-toastify';
 import tokenService from './token.service';
 
 const AuthService = () => {
@@ -26,7 +26,7 @@ const AuthService = () => {
     }
     else {
 
-      toast.error('invalid Login!');
+      // toast.error('invalid Login!');
 
     }
   }
