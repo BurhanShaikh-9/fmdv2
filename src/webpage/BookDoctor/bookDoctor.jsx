@@ -17,9 +17,9 @@ import nutri from '../../assets/images/BookDoctor/nutri.png'
 import doctorPfp from '../../assets/images/BookDoctor/doctorPfp.png'
 import family from '../../assets/images/BookDoctor/family.png'
 import verified from '../../assets/images/BookDoctor/verified.png'
-import DatePicker from "react-datepicker";
+// import DatePicker from "react-datepicker";
+// import "react-datepicker/dist/react-datepicker.css";
 import { Greeting } from '../Component/greeting';
-import "react-datepicker/dist/react-datepicker.css";
 // import TimePicker from 'react-time-picker';
 export const BookDoctor = () => {
 
