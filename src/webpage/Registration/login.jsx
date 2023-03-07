@@ -7,8 +7,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import AuthService from '../../services/auth.service'
 import { Loading } from '../Component/loading';
 import { ROUTING } from '../../utils/routes';
-import { GoogleLoginButton } from 'react-social-login-buttons';
-import { LoginSocialGoogle } from 'reactjs-social-login'
+// import { GoogleLoginButton } from 'react-social-login-buttons';
+// import { LoginSocialGoogle } from 'reactjs-social-login'
 
 export const Login = () => {
     const { handleLogin, onSuccessLogin } = AuthService();
@@ -109,7 +109,7 @@ export const Login = () => {
                                                 Google Sign In
                                             </button> */}
 
-                                                <LoginSocialGoogle
+                                                {/* <LoginSocialGoogle
                                                     client_id={"792328529943-tl3hbpbafbj7g16s89rb2e3p5kgg9c65.apps.googleusercontent.com"}
                                                     scope="openid profile email"
                                                     discoveryDocs="claims_supported"
@@ -122,7 +122,7 @@ export const Login = () => {
                                                     }}
                                                 >
                                                     <GoogleLoginButton />
-                                                </LoginSocialGoogle>
+                                                </LoginSocialGoogle> */}
 
                                                 {/* <button>
                                                     <i className="ri-facebook-fill"></i>
