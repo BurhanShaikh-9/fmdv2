@@ -12,7 +12,7 @@ import onehealthLabImg from '../../assets/images/bookLab/onehealth.jpg'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import Slider from "react-slick";
-import TimePicker from 'react-time-picker';
+// import TimePicker from 'react-time-picker';
 import { Greeting } from '../Component/greeting'
 
 export const BookLab = () => {
